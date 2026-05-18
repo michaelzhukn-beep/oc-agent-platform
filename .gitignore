@@ -1,0 +1,39 @@
+# ===== 密钥和环境配置(最重要,永远别漏) =====
+.env
+.env.local
+.env.*.local
+
+# ===== Python 虚拟环境 =====
+.venv/
+venv/
+env/
+
+# ===== Python 编译产物 =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ===== 包管理器缓存 =====
+.uv_cache/
+pip-log.txt
+
+# ===== IDE / 编辑器配置 =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== 操作系统垃圾文件 =====
+.DS_Store
+Thumbs.db
+
+# ===== 测试和覆盖率 =====
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===== 构建产物 =====
+build/
+dist/
+*.egg-info/
